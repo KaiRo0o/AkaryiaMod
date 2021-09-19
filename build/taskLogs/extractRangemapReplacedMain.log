@@ -1,0 +1,58 @@
+Unsupposrted library path: C:\Users\rafta\Desktop\Akaryia\AkaryiaMod\build\classes\java\api
+Unsupposrted library path: C:\Users\rafta\Desktop\Akaryia\AkaryiaMod\build\resources\api
+Symbol range map extraction starting
+Processing 18 files
+startProcessing "com/akarya/mod/CreativeTabCustom.java" md5: 175fb2306e2529d9fb86263e8ce9b3c3
+endProcessing "com/akarya/mod/CreativeTabCustom.java"
+
+startProcessing "com/akarya/mod/Main.java" md5: 6c91f749f45df14bd60e60f7d01751bf
+endProcessing "com/akarya/mod/Main.java"
+
+startProcessing "com/akarya/mod/init/BlockInit.java" md5: 9f50326a5abf8fa31e048fab0cd1864c
+endProcessing "com/akarya/mod/init/BlockInit.java"
+
+startProcessing "com/akarya/mod/init/ItemInit.java" md5: 7f8c329caab2311d313bd4fbb2622170
+endProcessing "com/akarya/mod/init/ItemInit.java"
+
+startProcessing "com/akarya/mod/objects/blocks/AkaryiaOreBlock.java" md5: 07e3efd045df982d76592c8951255225
+endProcessing "com/akarya/mod/objects/blocks/AkaryiaOreBlock.java"
+
+startProcessing "com/akarya/mod/objects/blocks/BlockBasic.java" md5: 12e78128f7006e337b3b8a0b5b627eb4
+endProcessing "com/akarya/mod/objects/blocks/BlockBasic.java"
+
+startProcessing "com/akarya/mod/objects/items/ItemBase.java" md5: bb17c912f340f6458a05c06bacd51bfc
+endProcessing "com/akarya/mod/objects/items/ItemBase.java"
+
+startProcessing "com/akarya/mod/objects/items/ItemPickaxeMod.java" md5: 0cb5ac0342bad3bbe483d6bad96cb261
+endProcessing "com/akarya/mod/objects/items/ItemPickaxeMod.java"
+
+startProcessing "com/akarya/mod/objects/items/ItemShovelMod.java" md5: 6fed42687dff6abe0698f0fad53a9f3a
+endProcessing "com/akarya/mod/objects/items/ItemShovelMod.java"
+
+startProcessing "com/akarya/mod/objects/items/ItemSwordMod.java" md5: 1426827046bd5601b7866d2b6819b3b7
+endProcessing "com/akarya/mod/objects/items/ItemSwordMod.java"
+
+startProcessing "com/akarya/mod/objects/items/armor/ArmorMod.java" md5: 1103572e4d89583c54ca1d01ba7caa89
+endProcessing "com/akarya/mod/objects/items/armor/ArmorMod.java"
+
+startProcessing "com/akarya/mod/proxy/ClientProxy.java" md5: 2061752bd36a10eb63ab22f7b9c52e64
+endProcessing "com/akarya/mod/proxy/ClientProxy.java"
+
+startProcessing "com/akarya/mod/proxy/CommonProxy.java" md5: f9b207901ec8e370bcc941e626559473
+endProcessing "com/akarya/mod/proxy/CommonProxy.java"
+
+startProcessing "com/akarya/mod/util/Reference.java" md5: 7a5395d27670dc4a931408882386c68e
+endProcessing "com/akarya/mod/util/Reference.java"
+
+startProcessing "com/akarya/mod/util/handlers/RecipesHandler.java" md5: 47d6b20a43e482771b4d08f8f49934cd
+endProcessing "com/akarya/mod/util/handlers/RecipesHandler.java"
+
+startProcessing "com/akarya/mod/util/handlers/RegistryHandler.java" md5: 2bbd0d5d8c949aa03618d2f301448232
+endProcessing "com/akarya/mod/util/handlers/RegistryHandler.java"
+
+startProcessing "com/akarya/mod/util/interfaces/IHasModel.java" md5: 01cfe7a14740dc0f6099889134a32849
+endProcessing "com/akarya/mod/util/interfaces/IHasModel.java"
+
+startProcessing "com/akarya/mod/world/generation/WorldGenCustomOres.java" md5: 284853569a39a3738e55eafb93378abc
+endProcessing "com/akarya/mod/world/generation/WorldGenCustomOres.java"
+

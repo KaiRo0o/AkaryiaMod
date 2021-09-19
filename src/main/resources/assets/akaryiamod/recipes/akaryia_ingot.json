@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "akaryiamod:akaryia_block"
+    }
+  ],
+  "result": {
+    "item": "akaryiamod:akaryia_ingot",
+    "count": 9
+  }
+}

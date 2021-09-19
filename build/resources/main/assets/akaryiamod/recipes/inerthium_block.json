@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "akaryiamod:inerthium_ingot"
+    }
+  },
+  "result": {
+    "item": "akaryiamod:inerthium_block",
+    "count": 1
+  }
+}

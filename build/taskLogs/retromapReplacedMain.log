@@ -1,0 +1,228 @@
+Processing 18 files
+Start Processing: com/akarya/mod/CreativeTabCustom.java
+FOUND CONSTR method com/akarya/mod/CreativeTabCustom/CreativeTabCustom (Ljava/lang/String;)V com/akarya/mod/CreativeTabCustom
+Rename method net/minecraft/creativetab/CreativeTabs/getTabIconItem ()Lnet/minecraft/item/ItemStack;[328,342]::getTabIconItem->func_78016_d
+Import: com.akarya.mod.init.ItemInit
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.ItemStack
+End  Processing: com/akarya/mod/CreativeTabCustom.java
+
+Start Processing: com/akarya/mod/Main.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+Import: com.akarya.mod.init.ItemInit
+Import: com.akarya.mod.proxy.CommonProxy
+Import: com.akarya.mod.util.Reference
+Import: com.akarya.mod.util.handlers.RegistryHandler
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: org.apache.logging.log4j.Logger
+Import: org.lwjgl.opengl.Display
+End  Processing: com/akarya/mod/Main.java
+
+Start Processing: com/akarya/mod/init/BlockInit.java
+Rename field net/minecraft/block/material/Material/ROCK[456,460]::ROCK->field_151576_e
+Rename field net/minecraft/block/material/Material/ROCK[565,569]::ROCK->field_151576_e
+Rename field net/minecraft/block/material/Material/ROCK[673,677]::ROCK->field_151576_e
+Import: com.akarya.mod.objects.blocks.AkaryiaOreBlock
+Import: com.akarya.mod.objects.blocks.BlockBasic
+Import: net.minecraft.block.Block
+Import: net.minecraft.block.material.Material
+Import: java.util.ArrayList
+Import: java.util.List
+End  Processing: com/akarya/mod/init/BlockInit.java
+
+Start Processing: com/akarya/mod/init/ItemInit.java
+New Key: class net/minecraft/item/Item
+New Key: class net/minecraft/item/Item
+New Key: class net/minecraft/item/Item
+New Key: class net/minecraft/item/Item
+New Key: class net/minecraft/item/ItemArmor
+Rename field net/minecraft/init/SoundEvents/ITEM_ARMOR_EQUIP_DIAMOND[1344,1368]::ITEM_ARMOR_EQUIP_DIAMOND->field_187716_o
+New Key: class net/minecraft/item/ItemArmor
+Rename field net/minecraft/init/SoundEvents/ITEM_ARMOR_EQUIP_DIAMOND[1560,1584]::ITEM_ARMOR_EQUIP_DIAMOND->field_187716_o
+Import: com.akarya.mod.objects.items.*
+Import: com.akarya.mod.objects.items.armor.ArmorMod
+Import: com.akarya.mod.util.Reference
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.init.SoundEvents
+Import: net.minecraft.inventory.EntityEquipmentSlot
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.ItemArmor
+Import: net.minecraft.item.ItemStack
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.common.util.EnumHelper
+Import: java.util.*
+End  Processing: com/akarya/mod/init/ItemInit.java
+
+Start Processing: com/akarya/mod/objects/blocks/AkaryiaOreBlock.java
+FOUND CONSTR method com/akarya/mod/objects/blocks/AkaryiaOreBlock/AkaryiaOreBlock (Ljava/lang/String;Lnet/minecraft/block/material/Material;)V com/akarya/mod/objects/blocks/AkaryiaOreBlock
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[572,590]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[634,648]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[674,685]::setHardness->func_149711_c
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[910,926]::getItemFromBlock->func_150898_a
+Import: com.akarya.mod.Main
+Import: com.akarya.mod.init.BlockInit
+Import: com.akarya.mod.init.ItemInit
+Import: com.akarya.mod.util.interfaces.IHasModel
+Import: net.minecraft.block.Block
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.ItemBlock
+End  Processing: com/akarya/mod/objects/blocks/AkaryiaOreBlock.java
+
+Start Processing: com/akarya/mod/objects/blocks/BlockBasic.java
+FOUND CONSTR method com/akarya/mod/objects/blocks/BlockBasic/BlockBasic (Ljava/lang/String;Lnet/minecraft/block/material/Material;)V com/akarya/mod/objects/blocks/BlockBasic
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[562,580]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[624,638]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[664,675]::setHardness->func_149711_c
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[900,916]::getItemFromBlock->func_150898_a
+Import: com.akarya.mod.Main
+Import: com.akarya.mod.init.BlockInit
+Import: com.akarya.mod.init.ItemInit
+Import: com.akarya.mod.util.interfaces.IHasModel
+Import: net.minecraft.block.Block
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.ItemBlock
+End  Processing: com/akarya/mod/objects/blocks/BlockBasic.java
+
+Start Processing: com/akarya/mod/objects/items/ItemBase.java
+FOUND CONSTR method com/akarya/mod/objects/items/ItemBase/ItemBase (Ljava/lang/String;)V com/akarya/mod/objects/items/ItemBase
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[437,455]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[498,512]::setCreativeTab->func_77637_a
+Import: com.akarya.mod.CreativeTabCustom
+Import: com.akarya.mod.Main
+Import: com.akarya.mod.init.ItemInit
+Import: com.akarya.mod.util.interfaces.IHasModel
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.ItemStack
+End  Processing: com/akarya/mod/objects/items/ItemBase.java
+
+Start Processing: com/akarya/mod/objects/items/ItemPickaxeMod.java
+FOUND CONSTR method com/akarya/mod/objects/items/ItemPickaxeMod/ItemPickaxeMod (Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V com/akarya/mod/objects/items/ItemPickaxeMod
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[420,438]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[481,495]::setCreativeTab->func_77637_a
+Import: com.akarya.mod.Main
+Import: com.akarya.mod.init.ItemInit
+Import: com.akarya.mod.util.interfaces.IHasModel
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.ItemPickaxe
+Adding 1 imports
+        net.minecraft.item.Item.ToolMaterial
+End  Processing: com/akarya/mod/objects/items/ItemPickaxeMod.java
+
+Start Processing: com/akarya/mod/objects/items/ItemShovelMod.java
+FOUND CONSTR method com/akarya/mod/objects/items/ItemShovelMod/ItemShovelMod (Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V com/akarya/mod/objects/items/ItemShovelMod
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[414,432]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[475,489]::setCreativeTab->func_77637_a
+Import: com.akarya.mod.Main
+Import: com.akarya.mod.init.ItemInit
+Import: com.akarya.mod.util.interfaces.IHasModel
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.ItemSpade
+Adding 1 imports
+        net.minecraft.item.Item.ToolMaterial
+End  Processing: com/akarya/mod/objects/items/ItemShovelMod.java
+
+Start Processing: com/akarya/mod/objects/items/ItemSwordMod.java
+FOUND CONSTR method com/akarya/mod/objects/items/ItemSwordMod/ItemSwordMod (Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V com/akarya/mod/objects/items/ItemSwordMod
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[412,430]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[473,487]::setCreativeTab->func_77637_a
+Import: com.akarya.mod.Main
+Import: com.akarya.mod.init.ItemInit
+Import: com.akarya.mod.util.interfaces.IHasModel
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.ItemSword
+Adding 1 imports
+        net.minecraft.item.Item.ToolMaterial
+End  Processing: com/akarya/mod/objects/items/ItemSwordMod.java
+
+Start Processing: com/akarya/mod/objects/items/armor/ArmorMod.java
+FOUND CONSTR method com/akarya/mod/objects/items/armor/ArmorMod/ArmorMod (Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V com/akarya/mod/objects/items/armor/ArmorMod
+New Key: class net/minecraft/item/ItemArmor
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[688,706]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[749,763]::setCreativeTab->func_77637_a
+Import: com.akarya.mod.Main
+Import: com.akarya.mod.init.ItemInit
+Import: com.akarya.mod.util.interfaces.IHasModel
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.inventory.EntityEquipmentSlot
+Import: net.minecraft.item.ItemArmor
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.world.World
+End  Processing: com/akarya/mod/objects/items/armor/ArmorMod.java
+
+Start Processing: com/akarya/mod/proxy/ClientProxy.java
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.item.Item
+Import: net.minecraftforge.client.model.ModelLoader
+End  Processing: com/akarya/mod/proxy/ClientProxy.java
+
+Start Processing: com/akarya/mod/proxy/CommonProxy.java
+Import: net.minecraft.item.Item
+End  Processing: com/akarya/mod/proxy/CommonProxy.java
+
+Start Processing: com/akarya/mod/util/Reference.java
+End  Processing: com/akarya/mod/util/Reference.java
+
+Start Processing: com/akarya/mod/util/handlers/RecipesHandler.java
+Import: com.akarya.mod.init.BlockInit
+Import: com.akarya.mod.init.ItemInit
+Import: net.minecraft.item.ItemStack
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+End  Processing: com/akarya/mod/util/handlers/RecipesHandler.java
+
+Start Processing: com/akarya/mod/util/handlers/RegistryHandler.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: com.akarya.mod.init.BlockInit
+Import: com.akarya.mod.init.ItemInit
+Import: com.akarya.mod.util.interfaces.IHasModel
+Import: com.akarya.mod.world.generation.WorldGenCustomOres
+Import: net.minecraft.block.Block
+Import: net.minecraft.item.Item
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+End  Processing: com/akarya/mod/util/handlers/RegistryHandler.java
+
+Start Processing: com/akarya/mod/util/interfaces/IHasModel.java
+End  Processing: com/akarya/mod/util/interfaces/IHasModel.java
+
+Start Processing: com/akarya/mod/world/generation/WorldGenCustomOres.java
+FOUND CONSTR method com/akarya/mod/world/generation/WorldGenCustomOres/WorldGenCustomOres ()V com/akarya/mod/world/generation/WorldGenCustomOres
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[765,780]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/pattern/BlockMatcher/forBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/block/state/pattern/BlockMatcher;[798,806]::forBlock->func_177642_a
+Rename field net/minecraft/init/Blocks/STONE[819,824]::STONE->field_150348_b
+Rename field net/minecraft/world/World/provider[1028,1036]::provider->field_73011_w
+Rename method net/minecraft/world/gen/feature/WorldGenerator/generate (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z[1789,1797]::generate->func_180709_b
+Import: com.akarya.mod.init.BlockInit
+Import: net.minecraft.block.state.pattern.BlockMatcher
+Import: net.minecraft.init.Blocks
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.world.World
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.gen.feature.WorldGenMinable
+Import: net.minecraft.world.gen.feature.WorldGenerator
+Import: net.minecraftforge.fml.common.IWorldGenerator
+Import: java.util.Random
+End  Processing: com/akarya/mod/world/generation/WorldGenCustomOres.java
+

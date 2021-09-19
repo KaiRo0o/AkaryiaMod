@@ -1,0 +1,16 @@
+[
+{
+  "modid": "akaryiamod",
+  "name": "Akaryia Mod",
+  "description": "Akaryia Mod",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Raf0123"],
+  "credits": "Mod of Akaryia Server",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
